@@ -342,8 +342,8 @@ function initialize() {
     var image = wpdata.td + '/img/map-marker.png';
     var lat = geo.lat;
     var lon = geo.lon;
-    if(!lat) lat = -37.817314;
-    if(!lon) lon = 144.955431;
+    if(!lat) lat = 48.856614;
+    if(!lon) lon = 2.352222;
     var myLatlng = new google.maps.LatLng(lat, lon);
     var mapOptions = {
         zoom: 15,
